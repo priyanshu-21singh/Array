@@ -16,7 +16,6 @@ void resize(int new_capacity) {
         data = new_data;
         capacity = new_capacity;
     }
-
 public:
     DynamicArray(int initial_capacity = 2, int resize_factor = 2)
         : capacity(initial_capacity), size(0), resize_factor(resize_factor) {
