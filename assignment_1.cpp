@@ -8,8 +8,7 @@ private:
     int size;
     int resize_factor;
 
-
-    void resize(int new_capacity) {
+void resize(int new_capacity) {
         int* new_data = new int[new_capacity];
         for (int i = 0; i < size; ++i) {
             new_data[i] = data[i];
