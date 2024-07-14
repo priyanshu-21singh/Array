@@ -4,6 +4,7 @@ using namespace std;
 // Define the DynamicArray class 
 
 class DynamicArray {
+
 private:
     int* data;
     int capacity;
