@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Define the DynamicArray class
+// Define the DynamicArray class 
 
 class DynamicArray {
 private:
