@@ -5,7 +5,7 @@ using namespace std;
 
 class DynamicArray {
 
-private:
+  private:
     int* data;
     int capacity;
     int size;
